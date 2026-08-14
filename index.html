@@ -3,29 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Surgical | Home</title>
+    <title>Global Surgical | Premium Medical Supplies</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
-        nav { background: #0A4D68; padding: 15px; text-align: center; }
-        nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
-        .hero { background: #f4f4f4; padding: 60px 20px; text-align: center; }
-        .content { padding: 40px 20px; text-align: center; max-width: 800px; margin: auto; }
+        body { font-family: 'Lato', sans-serif; margin: 0; padding: 0; background-color: #0b192c; color: #fff; }
+        .top-banner { background: #000; text-align: center; padding: 15px; border-bottom: 2px solid #00D2C4; }
+        .top-banner h2 { color: #ffcc00; margin: 0; font-size: 24px; letter-spacing: 1px; }
+        .top-banner span { color: #00D2C4; font-size: 14px; }
+        nav { background: #111; padding: 12px; text-align: center; border-bottom: 1px solid #333; }
+        nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; font-size: 14px; text-transform: uppercase; }
+        nav a:hover { color: #00D2C4; }
+        .hero { background: #0A4D68; padding: 60px 20px; text-align: center; border-bottom: 4px solid #00D2C4; max-width: 900px; margin: 30px auto; border-radius: 6px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+        .hero h1 { font-size: 36px; margin-bottom: 10px; color: #ffffff; }
+        .hero p { font-size: 16px; color: #cfd8dc; max-width: 700px; margin: 0 auto 20px auto; line-height: 1.6; }
+        .btn { background-color: #00D2C4; color: #0b192c; padding: 10px 25px; text-decoration: none; font-weight: bold; border-radius: 4px; display: inline-block; }
+        .btn:hover { background-color: #fff; }
+        .content { max-width: 900px; margin: 30px auto; padding: 20px; text-align: center; background: #ffffff; color: #333; border-radius: 6px; }
+        .features { display: flex; justify-content: space-around; margin-top: 30px; flex-wrap: wrap; gap: 20px; }
+        .feature-box { flex: 1; min-width: 250px; background: #f9f9f9; padding: 20px; border-radius: 5px; border-top: 3px solid #0A4D68; }
     </style>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="products.html">Products</a>
-        <a href="contact.html">Contact Us</a>
-    </nav>
-    <div class="hero">
-        <h1>Global Surgical</h1>
-        <p>Your Trusted Partner for Medical & Surgical Solutions</p>
+    <div class="top-banner">
+        <h2>GLOBAL SURGICAL</h2>
+        <span>গ্লোবাল সার্জিক্যাল অ্যান্ড ইন্সট্রুমেন্টস</span>
     </div>
+    <nav>
+        <a href="index.html" style="color: #00D2C4;">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    
+    <div class="hero">
+        <h1>Premium Medical & Surgical Solutions</h1>
+        <p>Your trusted partner for high-quality medical appliances, surgical instruments, and diagnostic equipment.</p>
+        <a href="products.html" class="btn">Explore Products</a>
+    </div>
+
     <div class="content">
-        <h2>Welcome to Global Surgical</h2>
-        <p>We are dedicated to supplying top-tier medical equipment to healthcare facilities across Bangladesh.</p>
+        <h2 style="color: #0A4D68;">Welcome to Global Surgical</h2>
+        <p>At Global Surgical, we are dedicated to supplying top-tier medical and surgical equipment to healthcare facilities, laboratories, and medical professionals. We ensure reliability, precision, and compliance with global medical standards to support better healthcare outcomes.</p>
+        
+        <div class="features">
+            <div class="feature-box">
+                <h4 style="color: #0A4D68; margin-top: 0;">✓ ISO Certified Products</h4>
+                <p style="font-size: 13px; color: #666;">Guaranteed global standard quality.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color: #0A4D68; margin-top: 0;">✓ Reliable Healthcare Support</h4>
+                <p style="font-size: 13px; color: #666;">Dedicated assistance for professionals.</p>
+            </div>
+            <div class="feature-box">
+                <h4 style="color: #0A4D68; margin-top: 0;">✓ Nationwide Delivery</h4>
+                <p style="font-size: 13px; color: #666;">Safe and fast shipping across the country.</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
