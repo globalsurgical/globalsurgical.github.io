@@ -4,101 +4,26 @@
     <meta charset="UTF-8">
     <title>Products | Global Surgical</title>
     <style>
-        body { font-family: sans-serif; padding: 20px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
-        .card { border: 1px solid #ddd; padding: 20px; border-radius: 8px; text-align: center; }
+        body { font-family: Arial, sans-serif; margin: 0; }
+        nav { background: #0A4D68; padding: 15px; text-align: center; }
+        nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 40px; }
+        .card { border: 1px solid #ddd; padding: 20px; width: 200px; text-align: center; border-radius: 5px; }
     </style>
 </head>
 <body>
-    <h1>Medical Supplies & Products</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <h1 style="text-align: center;">Our Products</h1>
     <div class="grid">
-        <div class="card"><h3>Surgical Supplies</h3><a href="contact.html">Inquire Now</a></div>
-        <div class="card"><h3>Pathology & Reagents</h3><a href="contact.html">Inquire Now</a></div>
-        <div class="card"><h3>X-Ray Films</h3><a href="contact.html">Inquire Now</a></div>
+        <div class="card"><h3>Surgical</h3></div>
+        <div class="card"><h3>Pathology</h3></div>
+        <div class="card"><h3>X-Ray</h3></div>
+        <div class="card"><h3>Dental</h3></div>
     </div>
 </body>
 </html>
-<div style="font-family: 'Lato', 'Roboto', sans-serif; color: #333; margin: 0; padding: 0; background-color: #ffffff;">
-
-  <!-- New Stylish & Light Page Header (Different from About Us) -->
-  <div style="background: linear-gradient(135deg, #f4f7f6 0%, #e8efed 100%); padding: 50px 20px; text-align: center; border-bottom: 2px solid #00D2C4;">
-    <span style="font-size: 13px; font-weight: 700; color: #00D2C4; text-transform: uppercase; letter-spacing: 2px; display: block; margin-bottom: 5px;">Commercial Catalog</span>
-    <h1 style="font-size: 38px; margin: 0; font-weight: 700; color: #0A4D68;">Medical Supplies & Products</h1>
-    <div style="width: 50px; height: 3px; background-color: #0A4D68; margin: 15px auto 0 auto; border-radius: 2px;"></div>
-  </div>
-
-  <!-- Business Overview / Local and Foreign Summary -->
-  <div style="padding: 45px 20px; max-width: 950px; margin: 0 auto; text-align: center;">
-    <p style="font-size: 16px; line-height: 1.8; color: #444; font-weight: 500; margin: 0; background-color: #f8f9fa; padding: 25px; border-radius: 8px; border-left: 4px solid #0A4D68;">
-      We are a leading wholesaler and supplier of local and foreign surgical supplies, pathology reagents, orthopedic equipment, X-ray films, dental, and ENT instruments. We cater to all healthcare needs across hospitals, diagnostic centers, healthcare services, and pharmacies.
-    </p>
-  </div>
-
-  <!-- Product Grid Section -->
-  <div style="padding: 20px 20px 60px 20px; max-width: 1100px; margin: 0 auto;">
-    <div style="display: flex; flex-wrap: wrap; gap: 25px; justify-content: center;">
-      
-      <!-- Category 1 -->
-      <div style="flex: 1; min-width: 300px; max-width: 340px; background: #ffffff; border: 1px solid #eaeeef; border-top: 4px solid #0A4D68; padding: 25px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); text-align: center; display: flex; flex-direction: column; justify-content: space-between;">
-        <div>
-          <span style="font-size: 32px; display: block; margin-bottom: 12px;">□</span>
-          <h3 style="color: #0A4D68; margin: 0 0 10px 0; font-size: 19px; font-weight: 600;">Surgical Supplies</h3>
-          <p style="font-size: 14px; color: #666; line-height: 1.6; margin: 0 0 20px 0;">All kinds of local and foreign surgical appliances and materials for major or minor operations.</p>
-        </div>
-        <button onclick="window.location.href=document.querySelector('nav a[href*=\'contact\']') ? document.querySelector('nav a[href*=\'contact\']').href : '/contact-us.html';" style="background-color: #0A4D68; color: white; padding: 11px 20px; border: none; font-size: 14px; font-weight: bold; border-radius: 4px; display: inline-block; cursor: pointer; transition: 0.3s; width: 100%;">Inquire Now</button>
-      </div>
-
-      <!-- Category 2 -->
-      <div style="flex: 1; min-width: 300px; max-width: 340px; background: #ffffff; border: 1px solid #eaeeef; border-top: 4px solid #0A4D68; padding: 25px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); text-align: center; display: flex; flex-direction: column; justify-content: space-between;">
-        <div>
-          <span style="font-size: 32px; display: block; margin-bottom: 12px;">□</span>
-          <h3 style="color: #0A4D68; margin: 0 0 10px 0; font-size: 19px; font-weight: 600;">Pathology & Reagents</h3>
-          <p style="font-size: 14px; color: #666; line-height: 1.6; margin: 0 0 20px 0;">High-precision laboratory test materials, chemical reagents, and pathological disposables.</p>
-        </div>
-        <button onclick="window.location.href=document.querySelector('nav a[href*=\'contact\']') ? document.querySelector('nav a[href*=\'contact\']').href : '/contact-us.html';" style="background-color: #0A4D68; color: white; padding: 11px 20px; border: none; font-size: 14px; font-weight: bold; border-radius: 4px; display: inline-block; cursor: pointer; transition: 0.3s; width: 100%;">Inquire Now</button>
-      </div>
-
-      <!-- Category 3 -->
-      <div style="flex: 1; min-width: 300px; max-width: 340px; background: #ffffff; border: 1px solid #eaeeef; border-top: 4px solid #0A4D68; padding: 25px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); text-align: center; display: flex; flex-direction: column; justify-content: space-between;">
-        <div>
-          <span style="font-size: 32px; display: block; margin-bottom: 12px;">□</span>
-          <h3 style="color: #0A4D68; margin: 0 0 10px 0; font-size: 19px; font-weight: 600;">X-Ray Films & Imaging</h3>
-          <p style="font-size: 14px; color: #666; line-height: 1.6; margin: 0 0 20px 0;">Premium quality diagnostic X-ray films and essential radiology imaging supplies.</p>
-        </div>
-        <button onclick="window.location.href=document.querySelector('nav a[href*=\'contact\']') ? document.querySelector('nav a[href*=\'contact\']').href : '/contact-us.html';" style="background-color: #0A4D68; color: white; padding: 11px 20px; border: none; font-size: 14px; font-weight: bold; border-radius: 4px; display: inline-block; cursor: pointer; transition: 0.3s; width: 100%;">Inquire Now</button>
-      </div>
-
-      <!-- Category 4 -->
-      <div style="flex: 1; min-width: 300px; max-width: 340px; background: #ffffff; border: 1px solid #eaeeef; border-top: 4px solid #0A4D68; padding: 25px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); text-align: center; display: flex; flex-direction: column; justify-content: space-between;">
-        <div>
-          <span style="font-size: 32px; display: block; margin-bottom: 12px;">□</span>
-          <h3 style="color: #0A4D68; margin: 0 0 10px 0; font-size: 19px; font-weight: 600;">Orthopedic Equipment</h3>
-          <p style="font-size: 14px; color: #666; line-height: 1.6; margin: 0 0 20px 0;">Advanced orthopedic supports, implants, and bone-care medical instruments.</p>
-        </div>
-        <button onclick="window.location.href=document.querySelector('nav a[href*=\'contact\']') ? document.querySelector('nav a[href*=\'contact\']').href : '/contact-us.html';" style="background-color: #0A4D68; color: white; padding: 11px 20px; border: none; font-size: 14px; font-weight: bold; border-radius: 4px; display: inline-block; cursor: pointer; transition: 0.3s; width: 100%;">Inquire Now</button>
-      </div>
-
-      <!-- Category 5 -->
-      <div style="flex: 1; min-width: 300px; max-width: 340px; background: #ffffff; border: 1px solid #eaeeef; border-top: 4px solid #0A4D68; padding: 25px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); text-align: center; display: flex; flex-direction: column; justify-content: space-between;">
-        <div>
-          <span style="font-size: 32px; display: block; margin-bottom: 12px;">□</span>
-          <h3 style="color: #0A4D68; margin: 0 0 10px 0; font-size: 19px; font-weight: 600;">Dental & ENT Instruments</h3>
-          <p style="font-size: 14px; color: #666; line-height: 1.6; margin: 0 0 20px 0;">Specialized tools and diagnostics for Ear, Nose, Throat (ENT) and Dental clinics.</p>
-        </div>
-        <button onclick="window.location.href=document.querySelector('nav a[href*=\'contact\']') ? document.querySelector('nav a[href*=\'contact\']').href : '/contact-us.html';" style="background-color: #0A4D68; color: white; padding: 11px 20px; border: none; font-size: 14px; font-weight: bold; border-radius: 4px; display: inline-block; cursor: pointer; transition: 0.3s; width: 100%;">Inquire Now</button>
-      </div>
-
-      <!-- Category 6 -->
-      <div style="flex: 1; min-width: 300px; max-width: 340px; background: #ffffff; border: 1px solid #eaeeef; border-top: 4px solid #0A4D68; padding: 25px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); text-align: center; display: flex; flex-direction: column; justify-content: space-between;">
-        <div>
-          <span style="font-size: 32px; display: block; margin-bottom: 12px;">□</span>
-          <h3 style="color: #0A4D68; margin: 0 0 10px 0; font-size: 19px; font-weight: 600;">Healthcare Appliances</h3>
-          <p style="font-size: 14px; color: #666; line-height: 1.6; margin: 0 0 20px 0;">General medical instruments and equipment utilized in diagnostic centers and pharmacies.</p>
-        </div>
-        <button onclick="window.location.href=document.querySelector('nav a[href*=\'contact\']') ? document.querySelector('nav a[href*=\'contact\']').href : '/contact-us.html';" style="background-color: #0A4D68; color: white; padding: 11px 20px; border: none; font-size: 14px; font-weight: bold; border-radius: 4px; display: inline-block; cursor: pointer; transition: 0.3s; width: 100%;">Inquire Now</button>
-      </div>
-
-    </div>
-  </div>
-
-</div>
